@@ -27,7 +27,7 @@ const App = () => (
     <section className="padding">
       <Subscribe/>
     </section>
-    <section className="bg-black padding-x padding-t pb-8">
+    <section className="bg-orange-500 padding-x padding-t pb-8">
       <Footer/>
     </section>
   </main>

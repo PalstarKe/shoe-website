@@ -12,7 +12,7 @@ const Button = ({
       ${
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-coral-red text-white border-coral-red"
+          : "bg-orange-500 text-white border-orange-500"
       } rounded-lg ${fullWidth && "w-full"}`}
     >
       {label}

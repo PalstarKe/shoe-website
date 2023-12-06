@@ -10,7 +10,7 @@ const PopularProductCard = ({imgURL, name, price}) => {
         </div>
         <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">{name}</h3>
         <div className="flex justify-between items-center">
-            <p className="mt-2 text-2xl leading-normal font-semibold font-montserrat text-coral-red"> {price} </p>
+            <p className="mt-2 text-2xl leading-normal font-semibold font-montserrat text-orange-500"> {price} </p>
           <div className="ml-auto pr-8 cursor-pointer">
             <div className="bg-hero rounded-full p-2">
               <img src={cart} alt="add to cart" width={24} height={24} />
