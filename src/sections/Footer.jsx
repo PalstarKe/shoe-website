@@ -18,7 +18,7 @@ const Footer = () => {
             {socialMedia.map((icon) => (
               <div
                 key={icon}
-                className="flex justify-center items-center w-12 h-12 bg-white hover:bg-coral-red cursor-pointer rounded-full"
+                className="flex justify-center items-center w-12 h-12 bg-white hover:bg-orange-500 cursor-pointer rounded-full"
               >
                 {" "}
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
