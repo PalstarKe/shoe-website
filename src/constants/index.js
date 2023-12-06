@@ -90,6 +90,27 @@ export const services = [
     },
 ];
 
+export const collections = [
+    {
+        imgURL: shoe4,
+        label: "Art Deco-Inspired Statement Necklace",
+        subtext: "Immerse yourself in the glamour of the Roaring Twenties with our Art Deco-Inspired Statement Necklace.",
+        link: [ { href: "/", label: "SEE COLLECTION" },]
+    },
+    {
+        imgURL: shoe4,
+        label: "Minimalist Rose Gold Stackable Rings & Bracelet",
+        subtext: "Embrace the beauty of simplicity with our Minimalist Rose Gold Stackable Rings & Bracelets",
+        link: [ { href: "/", label: "SEE COLLECTION" },]
+    },
+    {
+        imgURL: shoe4,
+        label: "Vintage-Inspired Sapphire Stud Earrings",
+        subtext: "Channel your free-spirited style with our Bohemian-Inspired Gemstone Drop Earrings.",
+        link: [ { href: "/", label: "SEE COLLECTION" },]
+    }
+];
+
 export const reviews = [
     {
         imgURL: customer1,

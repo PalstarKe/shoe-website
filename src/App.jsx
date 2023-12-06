@@ -1,6 +1,6 @@
 import {Hero, Footer, Services, SpecialOffers, 
   Subscribe, SuperQuality, PopularProducts, 
-  CustomerReviews } from "./sections";
+  CustomerReviews, Collection } from "./sections";
 import Nav from './components/Nav'
 
 const App = () => (
@@ -11,6 +11,9 @@ const App = () => (
     </section>
     <section className="padding-x py-10">
       <Services/>
+    </section>
+    <section className="padding-x py-10">
+      <Collection/>
     </section>
     <section className="padding">
       <PopularProducts/>
