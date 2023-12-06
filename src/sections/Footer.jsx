@@ -50,7 +50,13 @@ const Footer = () => {
       <hr className=" mt-4 " />
       <div className="flex justify-between text-white-400 mt-4 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-start items-center gap-2 font-montserrat cursor-pointer">
-          <img src={copyrightSign} alt="copy right sign" width={20} height={20} className="rounded-full m-0"/>
+          <img
+            src={copyrightSign}
+            alt="copy right sign"
+            width={20}
+            height={20}
+            className="rounded-full m-0"
+          />
           <p>2023 Copyright. All rights Reserved</p>
         </div>
         <p className="font-montserrat cursor-pointer"> Terms & Conditions</p>
