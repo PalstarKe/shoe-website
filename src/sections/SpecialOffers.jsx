@@ -1,41 +1,36 @@
-import { arrowRight } from "../assets/icons";
 import { offer } from "../assets/images";
-import Button from "../components/Button";
 
 const SpecialOffers = () => {
   return (
-    <section className="flex justify-wrap items-center max-xl:flex-col-reverse gap-10 max-container">
-      <div className="flex-1">
-        <img
-          src={offer}
-          alt="offer image"
-          width={773}
-          height={687}
-          className="object-contain w-full"
-        />
-      </div>
-      <div className="flex flex-1 flex-col">
-        <h2 className="mt-6 font-palanquin text-2xl lg:text-4xl capitalize font-bold lg:max-w-lg">
-          <span className="text-orange-500">Special </span>
-          Offer
-        </h2>
-        <p className="mt-4 lg:max-w-lg info-text">
-          Embark on a shopping journey that redefines your experience with
-          unbeatable deals. From premier selections to incredible savings, we
-          offer unparalleled value that sets us apart.
-        </p>
-        <p className="mt-6 lg:max-w-lg info-text">
-          Navigate a realm of possibilities designed to fulfill your unique
-          desires, surpassing the loftiest expectations. Your journey with us is
-          nothing short of exceptional.
-        </p>
-        <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop Now" iconUrl={arrowRight} />
-          <Button
-            label="Learn More"
-            backgroundColor="bg-white"
-            borderColor="border-slate-gray"
-            textColor="text-slate-gray"
+    <section>
+      <div className="flex flex-col overflow-hidden rounded-lg bg-hero sm:flex-row md:h-80">
+        <div className="flex w-full flex-col p-2 sm:w-1/2 sm:p-8 lg:w-3/5">
+          <h2 className="mt-2 font-palanquin text-2xl lg:text-4xl capitalize font-bold lg:max-w-lg">
+            Summer Sale Up to <span className="text-orange-500">70%</span> off.
+          </h2>
+
+          <p className="mb-4 info-text">
+            From the vintage allure of Art Deco to the minimalist beauty and
+            Bohemian-inspired pieces, discover extraordinary pieces for every
+            taste.Redefine your elegance today.
+          </p>
+          <div className="mt-auto">
+            <a
+              href="#"
+              className="inline-block rounded-lg bg-orange-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:bg-orange-500 focus-visible:ring active:bg-orange-500 md:text-base"
+            >
+              Shop now
+            </a>
+          </div>
+        </div>
+        <div className="order-first h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-3/5">
+          <img
+            src={offer}
+            alt="offer image"
+            width={773}
+            height={687}
+            loading="lazy"
+            className="h-full w-full object-contain object-center"
           />
         </div>
       </div>

@@ -14,13 +14,13 @@ const CollectionCard = ({ imgURL, label, subtext, link }) => {
       </a>
 
       <div className="flex flex-col flex-wrap">
-        <span className="text-lg font-bold font-palanquin transition duration-100 hover:text-slate-gray lg:text-xl">
+        <span className="text-2xl leading-normal font-semibold font-palanquin transition duration-100 hover:text-slate-gray lg:text-2xl">
           {label}
         </span>
-        <span className="text-slate-gray">{subtext}</span>
+        <span className="text-slate-gray mt-2">{subtext}</span>
         <a
           href="#"
-          className="text-lg font-palanquin font-medium text-orange-500 transition duration-100 hover:text-slate-gray lg:text-xl"
+          className="mt-2 text-2xl leading-normal font-semibold font-montserrat text-orange-500 transition duration-100 hover:text-slate-gray lg:text-xl"
         >
           {link}
         </a>
