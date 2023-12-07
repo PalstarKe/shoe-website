@@ -8,12 +8,12 @@ const Hero = () => {
 
   return (
     <section className=" flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
-      <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
+      <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-6/12 xl:py-24">
         <p className="mb-4 font-semibold font-montserrat text-orange-500 md:mb-6 md:text-lg xl:text-xl">
           Adorn Your Elegance
         </p>
 
-        <h1 className="mb-8 text-4xl font-palanquin font-bold text-black sm:text-5xl md:mb-12 md:text-6xl">
+        <h1 className="mb-8 text-3xl font-palanquin font-bold text-black sm:text-5xl md:mb-12 lg:text-4xl">
           Discover <span className="text-orange-500">Timeless</span> Beauty at
           Elegems
         </h1>
@@ -45,7 +45,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className=" relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 h-48 overflow-hidden rounded-lg bg-primary bg-hero bg-cover bg-center shadow-lg lg:h-48 xl:w-6/12">
+      <div className=" relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 h-48 overflow-hidden rounded-lg lg:h-48 xl:w-6/12">
         <img
           src={bigShoeImg}
           alt="Shoe Collection"

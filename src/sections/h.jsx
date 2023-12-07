@@ -56,3 +56,6 @@
         </div>
       </div>
     </section> */}
+
+
+    bg-primary bg-hero bg-cover bg-center shadow-lg

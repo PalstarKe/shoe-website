@@ -14,10 +14,10 @@ const SpecialOffers = () => {
             Bohemian-inspired pieces, discover extraordinary pieces for every
             taste.Redefine your elegance today.
           </p>
-          <div className="mt-auto">
+          <div className="mt-auto mb-6 flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
             <a
               href="#"
-              className="inline-block rounded-lg bg-orange-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:bg-orange-500 focus-visible:ring active:bg-orange-500 md:text-base"
+              className="inline-block rounded-lg bg-orange-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:bg-orange-600 focus-visible:ring active:bg-orange-700 md:text-base"
             >
               Shop now
             </a>
